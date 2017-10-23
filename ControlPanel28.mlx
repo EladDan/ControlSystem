@@ -1,0 +1,2688 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<meguno-link-project version="1.0">
+  <culture>en-US</culture>
+  <data>
+    <shared-visualizer-data>
+      <data id="SerialMonitorData" name="" instance-id="38cddb81-5643-43bf-91e0-839656df4c4a">
+        <send-cr-default>false</send-cr-default>
+        <send-lf-default>false</send-lf-default>
+        <word-wrap-default>false</word-wrap-default>
+        <include-date>false</include-date>
+        <include-time>true</include-time>
+        <include-custom>false</include-custom>
+        <custom-time-stamp />
+        <clear-on-send>false</clear-on-send>
+        <message-history>
+          <item>!SetComment Mix\r</item>
+          <item>!SetComment LAB,5.86,2.34,3.20,205.32\r</item>
+          <item>!SetComment LAB,4.74,2.27,3.18,172.82\r</item>
+        </message-history>
+      </data>
+      <data id="DefaultPlotConfigurationData" name="" instance-id="79fdfabd-f5cb-4185-911a-894ce5e173c9">
+        <show-summary-table>true</show-summary-table>
+        <show-legend>true</show-legend>
+        <default-symbol-size>4</default-symbol-size>
+        <default-line-width>1</default-line-width>
+        <default-dash-style>Solid</default-dash-style>
+        <default-visibility>true</default-visibility>
+        <next-color>3</next-color>
+        <next-symbol>1</next-symbol>
+        <series-styles>
+          <style name="Lo">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Aqua</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Aqua</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>false</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Li">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Fuchsia</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Fuchsia</SymbolColor>
+              <SymbolSize>6</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LoAvg">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Cyan</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Cyan</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LiAvg">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Red PWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Blue PWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Con">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LoAv">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Cyan</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Cyan</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LiAv">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Fuchsia</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Fuchsia</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="rPWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="bPWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="pH">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Green</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Green</SymbolColor>
+              <SymbolSize>3</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="RPWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>6</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="BPWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>6</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="CO">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>None</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Temp">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>0</LineWidth>
+              <SymbolType>Triangle</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Jc">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Black</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Triangle</SymbolType>
+              <SymbolColor>Black</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="RedPWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="BluePWM">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Lime</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Lime</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Liav">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Fuchsia</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Fuchsia</SymbolColor>
+              <SymbolSize>7</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Loav">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Aqua</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Aqua</SymbolColor>
+              <SymbolSize>7</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Li10">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>6</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Lo10">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Cyan</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Cyan</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Ra">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Green</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Triangle</SymbolType>
+              <SymbolColor>Green</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Con2">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Dash</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Triangle</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>9</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="ConR">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="ConB">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="FrR">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>3</SymbolSize>
+              <Visible>false</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LiCal">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Fuchsia</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>Fuchsia</SymbolColor>
+              <SymbolSize>8</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LiCalmax">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>LightSeaGreen</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>LightSeaGreen</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="rAva">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Dash</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="bAva">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Dash</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Diamond</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>6</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="LiPAR">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="PARi">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Magenta</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Magenta</SymbolColor>
+              <SymbolSize>5</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Car_">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Dash</LineStyle>
+              <LineColor>Blue</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Blue</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="DW_">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Dash</LineStyle>
+              <LineColor>Black</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Plus</SymbolType>
+              <SymbolColor>Black</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="b_rAbs">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Black</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Black</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Sp">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>LightSeaGreen</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Diamond</SymbolType>
+              <SymbolColor>LightSeaGreen</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="Mu">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Cyan</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>HDash</SymbolType>
+              <SymbolColor>Cyan</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="rPARi">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Gray</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Plus</SymbolType>
+              <SymbolColor>Gray</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="bPARi">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>DeepPink</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Square</SymbolType>
+              <SymbolColor>DeepPink</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="rPARo">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Red</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Star</SymbolType>
+              <SymbolColor>Red</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+          <style name="bPARo">
+            <SeriesStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+              <LineStyle>Solid</LineStyle>
+              <LineColor>Lime</LineColor>
+              <LineWidth>1</LineWidth>
+              <SymbolType>Circle</SymbolType>
+              <SymbolColor>Lime</SymbolColor>
+              <SymbolSize>4</SymbolSize>
+              <Visible>true</Visible>
+            </SeriesStyle>
+          </style>
+        </series-styles>
+      </data>
+      <data id="UploadManagerData" name="" instance-id="c79e2695-5139-402b-abb9-0fd6b7b4e55e">
+        <verify>true</verify>
+        <uploads>
+          <upload type="N8I.AVRDude.UploadData">
+            <display-name>Upload 1</display-name>
+            <device-template-id>Mega2560</device-template-id>
+            <programmer-id>serial</programmer-id>
+            <port-name>COM4</port-name>
+            <last-upload>2017-09-12T08:44:58.6386467+03:00</last-upload>
+            <verify>true</verify>
+            <sort-order>0</sort-order>
+            <path>C:\Users\claude\Dropbox\Arduino\StudentProject\Sketches\ControlSystemR28\ControlSystemR28.ino</path>
+            <relative-path>false</relative-path>
+            <auto-program>false</auto-program>
+          </upload>
+        </uploads>
+      </data>
+      <data id="LogFileData" name="" instance-id="24c41ab7-4047-45fa-a728-c1b03b1f907f">
+        <include-date>false</include-date>
+        <include-time>false</include-time>
+      </data>
+    </shared-visualizer-data>
+  </data>
+  <reporting>
+    <generate-scheduled-reports>false</generate-scheduled-reports>
+    <destinations>
+      <report-to-folder>
+        <last-report-number>0</last-report-number>
+        <folder-path>C:\Users\Ohad\Documents</folder-path>
+        <use-sub-folder>true</use-sub-folder>
+        <sub-folder-pattern>Report {Seq}</sub-folder-pattern>
+        <enabled>true</enabled>
+        <period>PT1H</period>
+        <last-sent>0001-01-01T00:00:00</last-sent>
+      </report-to-folder>
+    </destinations>
+  </reporting>
+  <serial-sources>
+    <default>8</default>
+    <sources>
+      <source type="SharedRS232Port">
+        <id>8</id>
+        <display-name>My Serial Device 8</display-name>
+        <sort-order>0</sort-order>
+        <port-name>
+          <type>Fixed</type>
+          <port>COM4</port>
+        </port-name>
+        <baud-rate>9600</baud-rate>
+        <data-bits>8</data-bits>
+        <handshaking>None</handshaking>
+        <parity>None</parity>
+        <stop-bits>One</stop-bits>
+        <disable-dtr>true</disable-dtr>
+        <disable-rts>false</disable-rts>
+      </source>
+    </sources>
+    <connect-sources />
+  </serial-sources>
+  <windows>
+    <window>
+      <DockPanel FormatVersion="1.0" DockLeftPortion="0.25" DockRightPortion="220" DockTopPortion="0.25" DockBottomPortion="0.25" ActiveDocumentPane="2" ActivePane="2">
+        <Contents Count="7">
+          <Content ID="0" PersistString="InterfacePanel" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <design type="InterfacePanel">
+              <children child-list="Controls">
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label602">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Car_</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Orange</property>
+                    <property name="Location">345, 278</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label602</property>
+                    <property name="Size">33, 20</property>
+                    <property name="TabIndex">193</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Car_">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">378, 278</property>
+                    <property name="Name">Car_</property>
+                    <property name="Size">40, 20</property>
+                    <property name="TabIndex">192</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label603">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">DW_</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">415, 279</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label603</property>
+                    <property name="Size">39, 20</property>
+                    <property name="TabIndex">191</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="DW_">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">451, 277</property>
+                    <property name="Name">DW_</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">190</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bSpecLSupply">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">233, 238</property>
+                    <property name="Name">bSpecLSupply</property>
+                    <property name="Size">49, 20</property>
+                    <property name="TabIndex">189</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label601">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">SpLSu</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">191, 237</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label601</property>
+                    <property name="Size">44, 20</property>
+                    <property name="TabIndex">188</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label600">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">bA/rA</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">242, 2</property>
+                    <property name="Name">Label600</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">187</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="b_rAbs">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">245, 18</property>
+                    <property name="Name">b_rAbs</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">186</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rKd">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">132, 257</property>
+                    <property name="Name">rKd</property>
+                    <property name="Size">73, 20</property>
+                    <property name="TabIndex">182</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bKd">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">230, 258</property>
+                    <property name="Name">bKd</property>
+                    <property name="Size">80, 20</property>
+                    <property name="TabIndex">183</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label598">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Kd</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">104, 258</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label598</property>
+                    <property name="Size">24, 17</property>
+                    <property name="TabIndex">180</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label599">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Kd</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">202, 258</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label599</property>
+                    <property name="Size">24, 17</property>
+                    <property name="TabIndex">181</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label597">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">TCon</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">314, 157</property>
+                    <property name="Name">Label597</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">179</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TCon">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">367, 156</property>
+                    <property name="Name">TCon</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">178</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label596">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">avail</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">101, 136</property>
+                    <property name="Name">Label596</property>
+                    <property name="Size">35, 18</property>
+                    <property name="TabIndex">177</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="L_avail">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="BackColor">Window</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">135, 135</property>
+                    <property name="Name">L_avail</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">176</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="PARi">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">135, 116</property>
+                    <property name="Name">PARi</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">175</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label595">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">R+B</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">104, 118</property>
+                    <property name="Name">Label595</property>
+                    <property name="Size">32, 17</property>
+                    <property name="TabIndex">174</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label594">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">Concentration (mg/L)</property>
+                    <property name="BackColor">Transparent</property>
+                    <property name="Font">Microsoft Sans Serif, 10pt, style=Bold, Underline</property>
+                    <property name="Location">338, 215</property>
+                    <property name="Name">Label594</property>
+                    <property name="Size">174, 19</property>
+                    <property name="TabIndex">173</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label593">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Car</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Orange</property>
+                    <property name="Location">345, 258</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label593</property>
+                    <property name="Size">33, 20</property>
+                    <property name="TabIndex">172</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Car">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">378, 258</property>
+                    <property name="Name">Car</property>
+                    <property name="Size">40, 20</property>
+                    <property name="TabIndex">171</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label591">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Chlb</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">LimeGreen</property>
+                    <property name="Location">419, 236</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label591</property>
+                    <property name="Size">33, 20</property>
+                    <property name="TabIndex">168</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Chlb">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">451, 236</property>
+                    <property name="Name">Chlb</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">167</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label592">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">DW</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">422, 257</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label592</property>
+                    <property name="Size">31, 20</property>
+                    <property name="TabIndex">166</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="DW">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">451, 257</property>
+                    <property name="Name">DW</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">165</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label590">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Abs2</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">286, -1</property>
+                    <property name="Name">Label590</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">164</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rAbs2">
+                  <properties>
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">289, 15</property>
+                    <property name="Name">rAbs2</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">163</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bAbs2">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">289, 35</property>
+                    <property name="Name">bAbs2</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">162</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rPWM">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">204, 96</property>
+                    <property name="Name">rPWM</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">161</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label588">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">PWM</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">170, 98</property>
+                    <property name="Name">Label588</property>
+                    <property name="Size">37, 17</property>
+                    <property name="TabIndex">160</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bPWM">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">277, 97</property>
+                    <property name="Name">bPWM</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">159</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label589">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">PWM</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">240, 98</property>
+                    <property name="Name">Label589</property>
+                    <property name="Size">37, 17</property>
+                    <property name="TabIndex">158</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label587">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">SpRa</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">195, 42</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label587</property>
+                    <property name="Size">38, 14</property>
+                    <property name="TabIndex">157</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="SpConRate">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">233, 40</property>
+                    <property name="Name">SpConRate</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">156</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label586">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">ConRa</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">91, 41</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label586</property>
+                    <property name="Size">45, 14</property>
+                    <property name="TabIndex">155</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="ConRate">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">135, 41</property>
+                    <property name="Name">ConRate</property>
+                    <property name="Size">57, 20</property>
+                    <property name="TabIndex">154</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label583">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">  Working Parameters   </property>
+                    <property name="BackColor">Transparent</property>
+                    <property name="Font">Microsoft Sans Serif, 10pt, style=Bold, Underline</property>
+                    <property name="Location">14, 218</property>
+                    <property name="Name">Label583</property>
+                    <property name="Size">171, 19</property>
+                    <property name="TabIndex">153</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="pHMin">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">43, 278</property>
+                    <property name="Name">pHMin</property>
+                    <property name="Size">49, 20</property>
+                    <property name="TabIndex">152</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label582">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">pHMin</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">1, 277</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label582</property>
+                    <property name="Size">44, 20</property>
+                    <property name="TabIndex">151</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rSpecLSupply">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">136, 237</property>
+                    <property name="Name">rSpecLSupply</property>
+                    <property name="Size">49, 20</property>
+                    <property name="TabIndex">148</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label580">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">SpLSu</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">94, 236</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label580</property>
+                    <property name="Size">44, 20</property>
+                    <property name="TabIndex">147</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="FrR_target">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="Location">43, 257</property>
+                    <property name="Name">FrR_target</property>
+                    <property name="Size">49, 20</property>
+                    <property name="TabIndex">146</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label579">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">FrR</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">6, 256</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label579</property>
+                    <property name="Size">40, 20</property>
+                    <property name="TabIndex">145</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label578">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">FrR</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">7, 119</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label578</property>
+                    <property name="Size">27, 16</property>
+                    <property name="TabIndex">144</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="FrR">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">35, 119</property>
+                    <property name="Name">FrR</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">143</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label575">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Con</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">92, 1</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label575</property>
+                    <property name="Size">37, 20</property>
+                    <property name="TabIndex">142</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rCon">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">128, 1</property>
+                    <property name="Name">rCon</property>
+                    <property name="Size">42, 20</property>
+                    <property name="TabIndex">141</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label576">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Con</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">168, 1</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label576</property>
+                    <property name="Size">37, 20</property>
+                    <property name="TabIndex">140</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bCon">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">202, 1</property>
+                    <property name="Name">bCon</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">139</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label577">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Chla</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">344, 236</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label577</property>
+                    <property name="Size">33, 20</property>
+                    <property name="TabIndex">138</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Chla">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">378, 238</property>
+                    <property name="Name">Chla</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">137</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label574">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Con2</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">92, 18</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label574</property>
+                    <property name="Size">37, 20</property>
+                    <property name="TabIndex">136</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rCon2">
+                  <properties>
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">128, 18</property>
+                    <property name="Name">rCon2</property>
+                    <property name="Size">42, 20</property>
+                    <property name="TabIndex">135</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label573">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Con2</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">168, 18</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label573</property>
+                    <property name="Size">37, 20</property>
+                    <property name="TabIndex">134</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bCon2">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">202, 18</property>
+                    <property name="Name">bCon2</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">133</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label570">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">R</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">404, 18</property>
+                    <property name="Name">Label570</property>
+                    <property name="Size">17, 11</property>
+                    <property name="TabIndex">131</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label571">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">B</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">405, 37</property>
+                    <property name="Name">Label571</property>
+                    <property name="Size">15, 15</property>
+                    <property name="TabIndex">130</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rLi_ref">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">327, 15</property>
+                    <property name="Name">rLi_ref</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">128</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bLi_ref">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">327, 35</property>
+                    <property name="Name">bLi_ref</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">127</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rLo_ref">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">366, 15</property>
+                    <property name="Name">rLo_ref</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">125</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label568">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">inref</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">328, 0</property>
+                    <property name="Name">Label568</property>
+                    <property name="Size">38, 17</property>
+                    <property name="TabIndex">124</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bLo_ref">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">366, 35</property>
+                    <property name="Name">bLo_ref</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">123</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label569">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">outref</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">364, -1</property>
+                    <property name="Name">Label569</property>
+                    <property name="Size">46, 18</property>
+                    <property name="TabIndex">122</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label565">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">h</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">318, 60</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label565</property>
+                    <property name="Size">11, 20</property>
+                    <property name="TabIndex">119</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="ResetMu">
+                  <properties>
+                    <property name="OnClickSend">!ResetMu\r</property>
+                    <property name="BackColor">ControlLight</property>
+                    <property name="Text">Res Mu</property>
+                    <property name="UseVisualStyleBackColor">False</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">183, 60</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">ResetMu</property>
+                    <property name="Size">58, 21</property>
+                    <property name="TabIndex">118</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label564">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">TMu</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">240, 61</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label564</property>
+                    <property name="Size">35, 20</property>
+                    <property name="TabIndex">117</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TMu">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">276, 61</property>
+                    <property name="Name">TMu</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">116</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPRadioButton, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="CO2">
+                  <properties>
+                    <property name="OnCheckChangedSend" />
+                    <property name="Text">CO2</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Magenta</property>
+                    <property name="Location">0, 180</property>
+                    <property name="Name">CO2</property>
+                    <property name="RightToLeft">Yes</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">115</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label563">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Mu</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">98, 61</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label563</property>
+                    <property name="Size">30, 20</property>
+                    <property name="TabIndex">114</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Mu">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">132, 62</property>
+                    <property name="Name">Mu</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">113</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label562">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">avail</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">170, 136</property>
+                    <property name="Name">Label562</property>
+                    <property name="Size">35, 18</property>
+                    <property name="TabIndex">112</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label560">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">BgLo</property>
+                    <property name="BackColor">255, 128, 0</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Cyan</property>
+                    <property name="Location">427, 92</property>
+                    <property name="Name">Label560</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">110</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label561">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">BgLi</property>
+                    <property name="BackColor">Cyan</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">255, 128, 0</property>
+                    <property name="Location">428, 112</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label561</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">109</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="BgLo">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 92</property>
+                    <property name="Name">BgLo</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">108</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="BgLi">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 111</property>
+                    <property name="Name">BgLi</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">107</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rL_avail">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="BackColor">Window</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">204, 136</property>
+                    <property name="Name">rL_avail</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">106</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bL_avail">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="BackColor">Window</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">277, 137</property>
+                    <property name="Name">bL_avail</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">106</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label556">
+                  <properties>
+                    <property name="Text">pHa</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="ForeColor">0, 192, 0</property>
+                    <property name="Location">78, 163</property>
+                    <property name="Name">Label556</property>
+                    <property name="Size">30, 14</property>
+                    <property name="TabIndex">105</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="pHAvg">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="BackColor">192, 255, 192</property>
+                    <property name="Location">106, 159</property>
+                    <property name="Name">pHAvg</property>
+                    <property name="Size">48, 20</property>
+                    <property name="TabIndex">104</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label58">
+                  <properties>
+                    <property name="Text">Tem</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">4, 143</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label58</property>
+                    <property name="Size">31, 16</property>
+                    <property name="TabIndex">99</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="ClearIndicators">
+                  <properties>
+                    <property name="OnClickSend">!ClearIndicators\r</property>
+                    <property name="Text">Clear</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="Location">247, 181</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">ClearIndicators</property>
+                    <property name="Size">50, 21</property>
+                    <property name="TabIndex">96</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPButton, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="UpdateIndicators">
+                  <properties>
+                    <property name="OnClickSend">!UpdateIndicators\r</property>
+                    <property name="Text">Update</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="Location">191, 181</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">UpdateIndicators</property>
+                    <property name="Size">56, 21</property>
+                    <property name="TabIndex">95</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="ConMax">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Font">Microsoft Sans Serif, 8pt, style=Bold</property>
+                    <property name="Location">43, 238</property>
+                    <property name="Name">ConMax</property>
+                    <property name="Size">49, 20</property>
+                    <property name="TabIndex">93</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label53">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">CMax</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">6, 237</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label53</property>
+                    <property name="Size">40, 20</property>
+                    <property name="TabIndex">92</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label559">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">avail</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">244, 136</property>
+                    <property name="Name">Label559</property>
+                    <property name="Size">35, 18</property>
+                    <property name="TabIndex">92</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rPARi">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">204, 116</property>
+                    <property name="Name">rPARi</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">93</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label45">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Red</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">173, 118</property>
+                    <property name="Name">Label45</property>
+                    <property name="Size">32, 17</property>
+                    <property name="TabIndex">92</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bPARi">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">277, 117</property>
+                    <property name="Name">bPARi</property>
+                    <property name="Size">38, 20</property>
+                    <property name="TabIndex">91</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label44">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Blue</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">244, 118</property>
+                    <property name="Name">Label44</property>
+                    <property name="Size">32, 17</property>
+                    <property name="TabIndex">90</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="rPARimax">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">133, 277</property>
+                    <property name="Name">rPARimax</property>
+                    <property name="Size">42, 20</property>
+                    <property name="TabIndex">89</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="bPARimax">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">218, 278</property>
+                    <property name="Name">bPARimax</property>
+                    <property name="Size">42, 20</property>
+                    <property name="TabIndex">89</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label39">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Date</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">314, 118</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label39</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">84</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Date">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">367, 117</property>
+                    <property name="Name">Date</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">83</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="LoAvg">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 169</property>
+                    <property name="Name">LoAvg</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">80</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="LiAvg">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 188</property>
+                    <property name="Name">LiAvg</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">79</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label37">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">LiAvg</property>
+                    <property name="BackColor">Cyan</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">255, 128, 0</property>
+                    <property name="Location">426, 189</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label37</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">78</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label36">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">LoAvg</property>
+                    <property name="BackColor">255, 128, 0</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Cyan</property>
+                    <property name="Location">426, 170</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label36</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">77</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label31">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">  Raw Light  </property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold, Underline</property>
+                    <property name="Location">425, -1</property>
+                    <property name="Name">Label31</property>
+                    <property name="Size">95, 16</property>
+                    <property name="TabIndex">68</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label30">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">      Time       </property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold, Underline</property>
+                    <property name="Location">318, 81</property>
+                    <property name="Name">Label30</property>
+                    <property name="Size">103, 19</property>
+                    <property name="TabIndex">67</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label28">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">PerCon</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Green</property>
+                    <property name="Location">314, 177</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label28</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">62</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="PerCon">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">366, 176</property>
+                    <property name="Name">PerCon</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">61</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label558">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">TLo</property>
+                    <property name="BackColor">255, 128, 0</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Cyan</property>
+                    <property name="Location">427, 130</property>
+                    <property name="Name">Label558</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">58</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TLo">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 130</property>
+                    <property name="Name">TLo</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">57</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label557">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">TLi</property>
+                    <property name="BackColor">Cyan</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">255, 128, 0</property>
+                    <property name="Location">427, 150</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label557</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">54</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TLi">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 149</property>
+                    <property name="Name">TLi</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">53</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label23">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">tod</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">314, 99</property>
+                    <property name="Name">Label23</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">52</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="tod">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">367, 98</property>
+                    <property name="Name">tod</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">51</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label21">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Puls o</property>
+                    <property name="BackColor">255, 128, 0</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Cyan</property>
+                    <property name="Location">426, 55</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label21</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">48</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TempPulseO">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 53</property>
+                    <property name="Name">TempPulseO</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">47</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label20">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">Puls i</property>
+                    <property name="BackColor">Cyan</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">255, 128, 0</property>
+                    <property name="Location">427, 72</property>
+                    <property name="Name">Label20</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">46</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label43">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">MAX</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Red</property>
+                    <property name="Location">101, 278</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label43</property>
+                    <property name="Size">34, 17</property>
+                    <property name="TabIndex">44</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="TempPulseI">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 72</property>
+                    <property name="Name">TempPulseI</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">45</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label42">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">MAX</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Blue</property>
+                    <property name="Location">186, 278</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label42</property>
+                    <property name="Size">34, 17</property>
+                    <property name="TabIndex">44</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label18">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">IsDay</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">314, 136</property>
+                    <property name="Name">Label18</property>
+                    <property name="Size">53, 17</property>
+                    <property name="TabIndex">42</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="IsDay">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">367, 137</property>
+                    <property name="Name">IsDay</property>
+                    <property name="Size">52, 20</property>
+                    <property name="TabIndex">41</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label17">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">pH</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">7, 162</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label17</property>
+                    <property name="Size">25, 16</property>
+                    <property name="TabIndex">40</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Temp">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">35, 139</property>
+                    <property name="Name">Temp</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">39</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="pH">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">35, 159</property>
+                    <property name="Name">pH</property>
+                    <property name="Size">41, 20</property>
+                    <property name="TabIndex">39</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label16">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">L out</property>
+                    <property name="BackColor">255, 128, 0</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">Cyan</property>
+                    <property name="Location">426, 17</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label16</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">38</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label15">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">L in</property>
+                    <property name="BackColor">Cyan</property>
+                    <property name="Font">Microsoft Sans Serif, 8.25pt, style=Bold</property>
+                    <property name="ForeColor">255, 128, 0</property>
+                    <property name="Location">426, 36</property>
+                    <property name="Name">Label15</property>
+                    <property name="Size">45, 17</property>
+                    <property name="TabIndex">37</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Lo">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 17</property>
+                    <property name="Name">Lo</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">36</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Li">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Location">475, 35</property>
+                    <property name="Name">Li</property>
+                    <property name="Size">45, 20</property>
+                    <property name="TabIndex">35</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPTextBox, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Illumination">
+                  <properties>
+                    <property name="OnTextChangedSend" />
+                    <property name="TextAlign">Center</property>
+                    <property name="Font">Courier New, 8.25pt, style=Bold</property>
+                    <property name="Location">23, 99</property>
+                    <property name="Name">Illumination</property>
+                    <property name="Size">70, 20</property>
+                    <property name="TabIndex">34</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label14">
+                  <properties>
+                    <property name="TextAlign">MiddleCenter</property>
+                    <property name="Text">illu</property>
+                    <property name="Font">Microsoft Sans Serif, 9pt, style=Bold</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">-3, 99</property>
+                    <property name="Name">Label14</property>
+                    <property name="Size">31, 17</property>
+                    <property name="TabIndex">33</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label13">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">R and B PWM / PARi / avail    </property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold, Underline</property>
+                    <property name="ForeColor">Black</property>
+                    <property name="Location">102, 81</property>
+                    <property name="Name">Label13</property>
+                    <property name="Size">223, 20</property>
+                    <property name="TabIndex">32</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label8">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">Current Var</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold, Underline</property>
+                    <property name="Location">6, 81</property>
+                    <property name="Name">Label8</property>
+                    <property name="Size">85, 18</property>
+                    <property name="TabIndex">22</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label7">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">    Indicators   </property>
+                    <property name="BackColor">Transparent</property>
+                    <property name="Font">Microsoft Sans Serif, 10pt, style=Bold, Underline</property>
+                    <property name="Location">189, 162</property>
+                    <property name="Name">Label7</property>
+                    <property name="Size">117, 19</property>
+                    <property name="TabIndex">21</property>
+                  </properties>
+                </component>
+                <component type="System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" name="Label2">
+                  <properties>
+                    <property name="TextAlign">TopCenter</property>
+                    <property name="Text">Illumination</property>
+                    <property name="Font">Microsoft Sans Serif, 9.75pt, style=Bold, Underline</property>
+                    <property name="Location">0, -3</property>
+                    <property name="Margin">0, 0, 0, 0</property>
+                    <property name="Name">Label2</property>
+                    <property name="Size">102, 18</property>
+                    <property name="TabIndex">7</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Controls.IPValueList, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="IlluminationValueList">
+                  <properties>
+                    <property name="OnSelectionChangedSend">!SetIllumination [IlluminationValueList.Value]\r\n</property>
+                    <property name="NamedValues">
+                      <item type="IPControlLibrary.Controls.IPValueListItem, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAAClJUENvbnRyb2xMaWJyYXJ5LkNvbnRyb2xzLklQVmFsdWVMaXN0SXRlbQIAAAAVPE5hbWU+a19fQmFja2luZ0ZpZWxkFjxWYWx1ZT5rX19CYWNraW5nRmllbGQBAA8CAAAABgMAAAAITGl0ZSBPZmYAAAAACw==</binary>
+                      </item>
+                      <item type="IPControlLibrary.Controls.IPValueListItem, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAAClJUENvbnRyb2xMaWJyYXJ5LkNvbnRyb2xzLklQVmFsdWVMaXN0SXRlbQIAAAAVPE5hbWU+a19fQmFja2luZ0ZpZWxkFjxWYWx1ZT5rX19CYWNraW5nRmllbGQBAA8CAAAABgMAAAAIQ29uc3RhbnQBAAAACw==</binary>
+                      </item>
+                      <item type="IPControlLibrary.Controls.IPValueListItem, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAAClJUENvbnRyb2xMaWJyYXJ5LkNvbnRyb2xzLklQVmFsdWVMaXN0SXRlbQIAAAAVPE5hbWU+a19fQmFja2luZ0ZpZWxkFjxWYWx1ZT5rX19CYWNraW5nRmllbGQBAA8CAAAABgMAAAAIRGF5L05pdGUCAAAACw==</binary>
+                      </item>
+                      <item type="IPControlLibrary.Controls.IPValueListItem, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAAClJUENvbnRyb2xMaWJyYXJ5LkNvbnRyb2xzLklQVmFsdWVMaXN0SXRlbQIAAAAVPE5hbWU+a19fQmFja2luZ0ZpZWxkFjxWYWx1ZT5rX19CYWNraW5nRmllbGQBAA8CAAAABgMAAAAIU2luIEQvTiADAAAACw==</binary>
+                      </item>
+                    </property>
+                    <property name="Font">Courier New, 8.5pt, style=Bold</property>
+                    <property name="ItemHeight">14</property>
+                    <property name="Location">6, 15</property>
+                    <property name="Name">IlluminationValueList</property>
+                    <property name="Size">87, 60</property>
+                    <property name="TabIndex">2</property>
+                  </properties>
+                </component>
+              </children>
+              <properties>
+                <property name="AutoSizeMode">GrowAndShrink</property>
+                <property name="Font">Microsoft Sans Serif, 8pt</property>
+                <property name="Margin">0, 0, 0, 0</property>
+                <property name="Name">UserControl1</property>
+                <property name="Size">540, 614</property>
+              </properties>
+              <components>
+                <component type="IPControlLibrary.Components.MessageLibrary.MessageLibrary, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="Library1">
+                  <properties>
+                    <property name="StartOfMessage" />
+                    <property name="EndOfMessage" />
+                    <property name="MessagePrefix" />
+                    <property name="MessageSuffix" />
+                    <property name="Messages">
+                      <item type="IPControlLibrary.Components.MessageLibrary.NamedMessage, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAADdJUENvbnRyb2xMaWJyYXJ5LkNvbXBvbmVudHMuTWVzc2FnZUxpYnJhcnkuTmFtZWRNZXNzYWdlAwAAAAltX3N0ck5hbWUYPE1lc3NhZ2U+a19fQmFja2luZ0ZpZWxkGDxDb21tZW50PmtfX0JhY2tpbmdGaWVsZAEBAQIAAAAGAwAAAAdHZXRUaW1lBgQAAAA7IVNldFRpbWVEYXRlIFtEYXRlVGltZS5Ob3cuVG9TdHJpbmcoIkhIbW1zc19kZC1NTS15eSIpXVxyXG4GBQAAAAAL</binary>
+                      </item>
+                      <item type="IPControlLibrary.Components.MessageLibrary.NamedMessage, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null">
+                        <binary>AAEAAAD/////AQAAAAAAAAAMAgAAAE5JUENvbnRyb2xMaWJyYXJ5LCBWZXJzaW9uPTEuMTIuMTcxMjcuNTA3LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPW51bGwFAQAAADdJUENvbnRyb2xMaWJyYXJ5LkNvbXBvbmVudHMuTWVzc2FnZUxpYnJhcnkuTmFtZWRNZXNzYWdlAwAAAAltX3N0ck5hbWUYPE1lc3NhZ2U+a19fQmFja2luZ0ZpZWxkGDxDb21tZW50PmtfX0JhY2tpbmdGaWVsZAEBAQIAAAAGAwAAAAdHZXREYXRlBgQAAAA3IVNldERhdGUgW0RhdGVUaW1lLk5vdy5Ub1N0cmluZygiSEhtbXNzX2RkLU1NLXl5IildXHJcbgYFAAAAAAs=</binary>
+                      </item>
+                    </property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor2">
+                  <properties>
+                    <property name="Library">
+                      <reference name="Library1" />
+                    </property>
+                    <property name="ChannelName">LibraryPanel</property>
+                  </properties>
+                </component>
+                <component type="IPControlLibrary.Protocols.MLPMessageProcessor.MLPUIMessageProcessor, IPControlLibrary, Version=1.12.17127.507, Culture=neutral, PublicKeyToken=null" name="MLPUIMessageProcessor1">
+                  <properties>
+                    <property name="Library">
+                      <reference name="Library1" />
+                    </property>
+                    <property name="ChannelName" />
+                  </properties>
+                </component>
+              </components>
+            </design>
+            <values>
+              <value name="Library1" />
+              <value name="Car_">
+                <property name="Text"><![CDATA[0.641]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DW_">
+                <property name="Text"><![CDATA[43.30]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bSpecLSupply">
+                <property name="Text"><![CDATA[0.2245]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="b_rAbs">
+                <property name="Text"><![CDATA[1.6679]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rKd">
+                <property name="Text"><![CDATA[0.002476495]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bKd">
+                <property name="Text"><![CDATA[0.000896663]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TCon">
+                <property name="Text"><![CDATA[300]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="L_avail">
+                <property name="Text"><![CDATA[155.368]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="PARi">
+                <property name="Text"><![CDATA[139.46]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Car">
+                <property name="Text"><![CDATA[3.489]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Chlb">
+                <property name="Text"><![CDATA[2.734]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="DW">
+                <property name="Text"><![CDATA[235.85]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rAbs2">
+                <property name="Text"><![CDATA[1.4566]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bAbs2">
+                <property name="Text"><![CDATA[2.4294]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rPWM">
+                <property name="Text"><![CDATA[93]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bPWM">
+                <property name="Text"><![CDATA[72]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="SpConRate">
+                <property name="Text"><![CDATA[-0.038320]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="ConRate">
+                <property name="Text"><![CDATA[-0.208865]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="pHMin">
+                <property name="Text"><![CDATA[6.500]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rSpecLSupply">
+                <property name="Text"><![CDATA[0.7673]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="FrR_target">
+                <property name="Text"><![CDATA[0.950]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="FrR">
+                <property name="Text"><![CDATA[0.946]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rCon">
+                <property name="Text"><![CDATA[0.000]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bCon">
+                <property name="Text"><![CDATA[0.000]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Chla">
+                <property name="Text"><![CDATA[5.447]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rCon2">
+                <property name="Text"><![CDATA[5.447]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bCon2">
+                <property name="Text"><![CDATA[5.459]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rLi_ref">
+                <property name="Text"><![CDATA[16836.32]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bLi_ref">
+                <property name="Text"><![CDATA[8909.06]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rLo_ref">
+                <property name="Text"><![CDATA[122.221]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bLo_ref">
+                <property name="Text"><![CDATA[3.033]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="ResetMu">
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TMu">
+                <property name="Text"><![CDATA[1.1086]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="CO2">
+                <property name="Checked"><![CDATA[True]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Mu">
+                <property name="Text"><![CDATA[-0.0296]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="BgLo">
+                <property name="Text"><![CDATA[0.167]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="BgLi">
+                <property name="Text"><![CDATA[0.099]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rL_avail">
+                <property name="Text"><![CDATA[147.029]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bL_avail">
+                <property name="Text"><![CDATA[8.340]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="pHAvg">
+                <property name="Text"><![CDATA[7.252]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="ClearIndicators">
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="UpdateIndicators">
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="ConMax">
+                <property name="Text"><![CDATA[10.00]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rPARi">
+                <property name="Text"><![CDATA[127.76]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bPARi">
+                <property name="Text"><![CDATA[11.71]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="rPARimax">
+                <property name="Text"><![CDATA[128.477]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="bPARimax">
+                <property name="Text"><![CDATA[11.774]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Date">
+                <property name="Text"><![CDATA[27-09-17]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LoAvg">
+                <property name="Text"><![CDATA[45.7357]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="LiAvg">
+                <property name="Text"><![CDATA[8339.21]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="PerCon">
+                <property name="Text"><![CDATA[44]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TLo">
+                <property name="Text"><![CDATA[11837]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TLi">
+                <property name="Text"><![CDATA[4050]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="tod">
+                <property name="Text"><![CDATA[12.433]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TempPulseO">
+                <property name="Text"><![CDATA[540]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="TempPulseI">
+                <property name="Text"><![CDATA[33704]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IsDay">
+                <property name="Text"><![CDATA[True]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Temp">
+                <property name="Text"><![CDATA[26.000]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="pH">
+                <property name="Text"><![CDATA[7.530]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Lo">
+                <property name="Text"><![CDATA[45.692]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Li">
+                <property name="Text"><![CDATA[8325.32]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="Illumination">
+                <property name="Text"><![CDATA[Sin D/N]]></property>
+                <property name="ReadOnly"><![CDATA[False]]></property>
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+              <value name="IlluminationValueList">
+                <property name="RawSelectedIndices" />
+                <property name="Enabled"><![CDATA[True]]></property>
+              </value>
+            </values>
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>8</SourceId>
+            <TabTitle>Interface Panel</TabTitle>
+          </Content>
+          <Content ID="1" PersistString="UploadManager2" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>-1</SourceId>
+            <TabTitle>Program Devices</TabTitle>
+            <hide-details>false</hide-details>
+          </Content>
+          <Content ID="2" PersistString="mlpChart" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>8</SourceId>
+            <TabTitle>Time Plot</TabTitle>
+            <reporting-enabled>false</reporting-enabled>
+            <show-summary>true</show-summary>
+            <Channels>
+              <auto>true</auto>
+              <default>false</default>
+              <selected>Screen</selected>
+              <selected>CSV</selected>
+              <selected>LibraryPanel</selected>
+            </Channels>
+            <reporting>
+              <width>640</width>
+              <height>480</height>
+              <dpi>96</dpi>
+              <anti-alias>true</anti-alias>
+              <filename-pattern>Graph {Seq}</filename-pattern>
+              <format>b96b3caf-0728-11d3-9d7b-0000f81ef32e</format>
+            </reporting>
+            <title>
+              <text>Chart</text>
+              <visible>false</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>16</size>
+              </font>
+            </title>
+            <x-axis>
+              <minimum>43005.428472222295</minimum>
+              <maximum>43005.527083333116</maximum>
+              <major-step>30</major-step>
+              <minor-step>5</minor-step>
+              <major-unit>Minute</major-unit>
+              <minor-unit>Minute</minor-unit>
+              <minimum-auto>true</minimum-auto>
+              <maximum-auto>true</maximum-auto>
+              <major-step-auto>true</major-step-auto>
+              <minor-step-auto>true</minor-step-auto>
+              <text>Time</text>
+              <visible>true</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>14</size>
+              </font>
+            </x-axis>
+            <y-axis>
+              <minimum>-5.7001209035586626</minimum>
+              <maximum>157.42999545493476</maximum>
+              <major-step>20</major-step>
+              <minor-step>5</minor-step>
+              <major-unit>Day</major-unit>
+              <minor-unit>Day</minor-unit>
+              <minimum-auto>false</minimum-auto>
+              <maximum-auto>false</maximum-auto>
+              <major-step-auto>true</major-step-auto>
+              <minor-step-auto>true</minor-step-auto>
+              <text>Value</text>
+              <visible>true</visible>
+              <font>
+                <color>-16777216</color>
+                <family>Microsoft Sans Serif</family>
+                <bold>true</bold>
+                <italic>false</italic>
+                <size>14</size>
+              </font>
+            </y-axis>
+            <background-fill>
+              <color-1>-1</color-1>
+              <color-2>-52</color-2>
+              <angle>-45</angle>
+            </background-fill>
+            <run>false</run>
+          </Content>
+          <Content ID="3" PersistString="FileWriter" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <Channels>
+              <auto>false</auto>
+              <default>true</default>
+              <selected>LibraryPanel</selected>
+              <selected>CSV</selected>
+            </Channels>
+            <file-path>
+              <path>CSV.txt</path>
+              <relative>true</relative>
+            </file-path>
+            <IncludeDate>false</IncludeDate>
+            <IncludeTime>false</IncludeTime>
+            <InsertTimestamp>false</InsertTimestamp>
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>8</SourceId>
+            <TabTitle>Message Logger</TabTitle>
+            <reporting-enabled>false</reporting-enabled>
+          </Content>
+          <Content ID="4" PersistString="SerialMonitor" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <InsertTimestamp>false</InsertTimestamp>
+            <WordWrap>false</WordWrap>
+            <IncludeDate>false</IncludeDate>
+            <IncludeTime>true</IncludeTime>
+            <IncludeCustom>false</IncludeCustom>
+            <CustomTimeStamp />
+            <AutoScroll>false</AutoScroll>
+            <ShowEOLMarkers>false</ShowEOLMarkers>
+            <ShowLineTime>true</ShowLineTime>
+            <ShowLineDate>false</ShowLineDate>
+            <ShowSourceInTitle>true</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>8</SourceId>
+            <TabTitle>Monitor</TabTitle>
+          </Content>
+          <Content ID="5" PersistString="MessageStreamViewer" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <Channels>
+              <auto>true</auto>
+              <default>true</default>
+            </Channels>
+            <InsertTimestamp>false</InsertTimestamp>
+            <WordWrap>false</WordWrap>
+            <IncludeDate>false</IncludeDate>
+            <IncludeTime>true</IncludeTime>
+            <IncludeCustom>false</IncludeCustom>
+            <CustomTimeStamp />
+            <AutoScroll>false</AutoScroll>
+            <ShowEOLMarkers>false</ShowEOLMarkers>
+            <ShowLineTime>true</ShowLineTime>
+            <ShowLineDate>false</ShowLineDate>
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>8</SourceId>
+            <TabTitle>Message Monitor</TabTitle>
+          </Content>
+          <Content ID="6" PersistString="SourceManager" AutoHidePortion="0.25" IsHidden="False" IsFloat="False">
+            <ShowSourceInTitle>false</ShowSourceInTitle>
+            <ShowPortInTitle>false</ShowPortInTitle>
+            <SourceId>-1</SourceId>
+            <TabTitle>Connection Manager</TabTitle>
+          </Content>
+        </Contents>
+        <Panes Count="7">
+          <Pane ID="0" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="0" />
+            </Contents>
+          </Pane>
+          <Pane ID="1" DockState="Document" ActiveContent="0">
+            <Contents Count="2">
+              <Content ID="0" RefID="0" />
+              <Content ID="1" RefID="6" />
+            </Contents>
+          </Pane>
+          <Pane ID="2" DockState="Document" ActiveContent="2">
+            <Contents Count="3">
+              <Content ID="0" RefID="2" />
+              <Content ID="1" RefID="1" />
+              <Content ID="2" RefID="3" />
+            </Contents>
+          </Pane>
+          <Pane ID="3" DockState="Document" ActiveContent="5">
+            <Contents Count="2">
+              <Content ID="0" RefID="5" />
+              <Content ID="1" RefID="4" />
+            </Contents>
+          </Pane>
+          <Pane ID="4" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="3" />
+            </Contents>
+          </Pane>
+          <Pane ID="5" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="1" />
+            </Contents>
+          </Pane>
+          <Pane ID="6" DockState="Float" ActiveContent="-1">
+            <Contents Count="1">
+              <Content ID="0" RefID="2" />
+            </Contents>
+          </Pane>
+        </Panes>
+        <DockWindows>
+          <DockWindow ID="0" DockState="Document" ZOrderIndex="0">
+            <NestedPanes Count="3">
+              <Pane ID="0" RefID="1" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+              <Pane ID="1" RefID="2" PrevPane="1" Alignment="Bottom" Proportion="0.476318154474645" />
+              <Pane ID="2" RefID="3" PrevPane="1" Alignment="Right" Proportion="0.525597744734562" />
+            </NestedPanes>
+          </DockWindow>
+          <DockWindow ID="1" DockState="DockLeft" ZOrderIndex="1">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="2" DockState="DockRight" ZOrderIndex="2">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="3" DockState="DockTop" ZOrderIndex="3">
+            <NestedPanes Count="0" />
+          </DockWindow>
+          <DockWindow ID="4" DockState="DockBottom" ZOrderIndex="4">
+            <NestedPanes Count="0" />
+          </DockWindow>
+        </DockWindows>
+        <FloatWindows Count="4">
+          <FloatWindow ID="0" Bounds="-108, 40, 569, 469" ZOrderIndex="0">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="0" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="1" Bounds="317, 15, 300, 300" ZOrderIndex="1">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="4" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="2" Bounds="470, 416, 300, 300" ZOrderIndex="2">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="5" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+          <FloatWindow ID="3" Bounds="632, 575, 300, 300" ZOrderIndex="3">
+            <NestedPanes Count="1">
+              <Pane ID="0" RefID="6" PrevPane="-1" Alignment="Right" Proportion="0.5" />
+            </NestedPanes>
+          </FloatWindow>
+        </FloatWindows>
+      </DockPanel>
+    </window>
+  </windows>
+</meguno-link-project>
